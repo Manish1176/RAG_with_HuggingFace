@@ -1,7 +1,3 @@
-![RH](https://github.com/user-attachments/assets/f6a34a10-3c31-4599-aaf0-519aae0b94ed)
-
-![MedicalFileUploader](https://github.com/user-attachments/assets/6a58f73d-c44e-4371-b3a7-1df86c0295e5)
-
 # 📚 Medical Chatbot – PDF-based Q&A System
 
 An **AI-powered chatbot** that lets users upload medical PDFs and ask questions to get accurate, document-grounded answers. Built using **LangChain**, **FAISS**, **Flan-T5**, and **Streamlit**, this project showcases a full-stack Retrieval-Augmented Generation (RAG) system for medical applications.
@@ -36,7 +32,9 @@ The chatbot retrieves relevant context from your uploaded PDFs and generates a c
 
 .
 ├── app.py # Main Streamlit app
+
 ├── requirements.txt # Required packages
+
 └── README.md # Project documentation
 
 yaml
@@ -70,7 +68,9 @@ Edit
 
 ## 📸 Interface Preview
 
-*(You can add screenshots or GIFs of your chatbot UI here)*
+![RH](https://github.com/user-attachments/assets/f6a34a10-3c31-4599-aaf0-519aae0b94ed)
+
+![MedicalFileUploader](https://github.com/user-attachments/assets/6a58f73d-c44e-4371-b3a7-1df86c0295e5)
 
 ---
 
@@ -92,7 +92,12 @@ bash
 Copy
 Edit
 streamlit run app.py
+
+---
+
+
 💬 Example Questions
+
 What is the treatment for hypothyroidism?
 
 Explain the symptoms of vitamin D deficiency.
@@ -101,17 +106,23 @@ What are the precautions for this drug?
 
 Make sure your question is relevant to the uploaded documents.
 
+---
+
+
 📈 Performance
+
 ✅ Achieved 85% relevance accuracy in returning document-based answers
 
 📚 Improved accessibility for patients, students, and health educators
 
 ⚠️ Disclaimer
+
 This chatbot is for educational and informational purposes only.
 It does not provide medical advice, diagnosis, or treatment.
 Always consult a certified medical professional for healthcare-related concerns.
 
 🔮 Future Improvements
+
 🔊 Voice input (speech-to-text)
 
 🌍 Multi-language support
@@ -122,7 +133,8 @@ Always consult a certified medical professional for healthcare-related concerns.
 
 💾 Save chat transcripts
 
-## 🙏 Acknowledgements
+🙏 Acknowledgements
+
 Hugging Face for models and pipelines
 
 LangChain for RAG workflows
